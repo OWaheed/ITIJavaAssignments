@@ -5,98 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee7b62f7-94ce-4e43-8533-07805991310d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../day3/lab2/lab2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day3/lab2/src/StringUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day3/lab2/src/main_class.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day3/out/production/lab2/StringUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day3/out/production/lab2/main_class.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day3/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day3/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/day6_war.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/day6_war_exploded.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_11_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_javax_mail_1_6_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_ws_rs_jakarta_ws_rs_api_2_1_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_javaee_api_8_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_external_aopalliance_repackaged_2_6_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_external_jakarta_inject_2_6_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_hk2_api_2_6_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_hk2_locator_2_6_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_hk2_utils_2_6_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_osgi_resource_locator_1_0_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_containers_jersey_container_servlet_2_33.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_containers_jersey_container_servlet_core_2_33.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_client_2_33.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_common_2_33.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_server_2_33.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_ext_jersey_entity_filtering_2_33.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_inject_jersey_hk2_2_33.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_media_jersey_media_json_jackson_2_33.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_25_0_GA.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/day6.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/day6/HelloApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/day6/HelloResource.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/day6/HelloServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/beans.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/beans.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/day6/HelloApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/day6/HelloResource.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/day6/HelloServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/day6-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/day6-1.0-SNAPSHOT/WEB-INF/classes/META-INF/beans.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/day6-1.0-SNAPSHOT/WEB-INF/classes/META-INF/persistence.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/day6-1.0-SNAPSHOT/WEB-INF/classes/com/example/day6/HelloApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/day6-1.0-SNAPSHOT/WEB-INF/classes/com/example/day6/HelloResource.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/day6-1.0-SNAPSHOT/WEB-INF/classes/com/example/day6/HelloServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/day6-1.0-SNAPSHOT/WEB-INF/lib/aopalliance-repackaged-2.6.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/day6-1.0-SNAPSHOT/WEB-INF/lib/hk2-api-2.6.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/day6-1.0-SNAPSHOT/WEB-INF/lib/hk2-locator-2.6.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/day6-1.0-SNAPSHOT/WEB-INF/lib/hk2-utils-2.6.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/day6-1.0-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.11.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/day6-1.0-SNAPSHOT/WEB-INF/lib/jackson-core-2.11.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/day6-1.0-SNAPSHOT/WEB-INF/lib/jackson-databind-2.11.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/day6-1.0-SNAPSHOT/WEB-INF/lib/jackson-module-jaxb-annotations-2.11.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/day6-1.0-SNAPSHOT/WEB-INF/lib/jakarta.activation-api-1.2.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/day6-1.0-SNAPSHOT/WEB-INF/lib/jakarta.annotation-api-1.3.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/day6-1.0-SNAPSHOT/WEB-INF/lib/jakarta.inject-2.6.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/day6-1.0-SNAPSHOT/WEB-INF/lib/jakarta.validation-api-2.0.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/day6-1.0-SNAPSHOT/WEB-INF/lib/jakarta.ws.rs-api-2.1.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/day6-1.0-SNAPSHOT/WEB-INF/lib/jakarta.xml.bind-api-2.3.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/day6-1.0-SNAPSHOT/WEB-INF/lib/javassist-3.25.0-GA.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/day6-1.0-SNAPSHOT/WEB-INF/lib/jersey-client-2.33.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/day6-1.0-SNAPSHOT/WEB-INF/lib/jersey-common-2.33.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/day6-1.0-SNAPSHOT/WEB-INF/lib/jersey-container-servlet-2.33.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/day6-1.0-SNAPSHOT/WEB-INF/lib/jersey-container-servlet-core-2.33.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/day6-1.0-SNAPSHOT/WEB-INF/lib/jersey-entity-filtering-2.33.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/day6-1.0-SNAPSHOT/WEB-INF/lib/jersey-hk2-2.33.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/day6-1.0-SNAPSHOT/WEB-INF/lib/jersey-media-json-jackson-2.33.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/day6-1.0-SNAPSHOT/WEB-INF/lib/jersey-server-2.33.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/day6-1.0-SNAPSHOT/WEB-INF/lib/osgi-resource-locator-1.0.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/day6-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/day6-1.0-SNAPSHOT/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SparkSqlDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SparkSqlDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SparkSqlDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SparkSqlDemo.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +39,9 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1tGv1791VJ57TYQbcRuSQT4AW2y" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -139,12 +52,38 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager">
-    <configuration name="SparkSqlDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\fcih\COURSES\iti\java\ITI-Java-Assignments\day6\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.SparkMlDemo">
+    <configuration name="SparkMlDemo" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <envs>
+        <env name=" hadoop.home.dir" value="C:\hadoop\bin" />
+      </envs>
+      <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
+      <option name="MAIN_CLASS_NAME" value="SparkMlDemo" />
+      <module name="day6" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SparkSqlDemo" type="Application" factoryName="Application" editBeforeRun="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <envs>
+        <env name=" hadoop.home.dir" value="C:\hadoop\bin" />
+      </envs>
       <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
       <option name="MAIN_CLASS_NAME" value="SparkSqlDemo" />
       <module name="day6" />
@@ -152,24 +91,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.SparkSqlDemo" />
-      </list>
-    </recent_temporary>
+    <list>
+      <item itemvalue="Application.SparkMlDemo" />
+      <item itemvalue="Application.SparkSqlDemo" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -182,6 +107,9 @@
       <workItem from="1622408028068" duration="742000" />
       <workItem from="1622440565856" duration="4191000" />
       <workItem from="1622451595683" duration="895000" />
+      <workItem from="1622567864264" duration="4178000" />
+      <workItem from="1622573914803" duration="2988000" />
+      <workItem from="1622610335287" duration="2653000" />
     </task>
     <servers />
   </component>
