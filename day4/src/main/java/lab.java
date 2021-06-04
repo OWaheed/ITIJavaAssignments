@@ -8,9 +8,11 @@ public class lab {
         try {
             DataFrame<Object> df= DataFrame.readCsv ("src/main/resources/titanic.csv");
             //columns are:
-            System.out.println("pclass,survived,name,sex,age,sibsp,parch,ticket,fare,cabin,embarked,boat,body,home.dest");
+            //System.out.println("pclass,survived,name,sex,age,sibsp,parch,ticket,fare,cabin,embarked,boat,body,home.dest");
             //values are:
-            df.iterrows ().forEachRemaining (System.out::println);
+            //df.iterrows ().forEachRemaining (System.out::println);
+            System.out.println(df.groupBy(row ->row.get(3)).groupBy(row ->row.get(1))
+                    .describe ());
         } catch (IOException e) {
             e.printStackTrace();
         }
