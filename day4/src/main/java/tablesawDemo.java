@@ -7,40 +7,39 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
-public class TitanicDataAnalysis {
+public class tablesawDemo {
     Table titanicData;
     String dataPath = "src/main/resources/titanic.csv";
 
-    public TitanicDataAnalysis() {
+    public tablesawDemo() {
     }
 
     public static void main(String[] args) {
-        TitanicDataAnalysis tda = new TitanicDataAnalysis ();
+        tablesawDemo tda = new tablesawDemo();
         try {
             tda.titanicData = tda.loadDataFromCVS (tda.dataPath);
             //getting the Structure of the data
             String structure = tda.getDataInfoStructure (tda.titanicData);
             System.out.println (structure);
             //getting Data summery
-            System.in.read ();
+
             String summary = tda.getDataSummary (tda.titanicData);
             System.out.println (summary);
-            System.in.read ();
+
             // Adding date Column
             Table dataWithDate = tda.addDateColumnToData (tda.titanicData);
             System.out.println ("=====================================================================================");
             System.out.println (dataWithDate.structure ());
-            System.in.read ();
+
             //Sorting on the added Date Field
             Table sortedData = dataWithDate.sortAscendingOn ("Fake Date");
 
             //getting the first 10 rows
             System.out.println ("Printing the first rows of the table");
-            System.in.read ();
+
             Table firstTenRows = sortedData.first (50);
 
             System.out.println (firstTenRows);
-            System.in.read ();
             ////////////////////////////////////////////////////////////////////////////////////////////////////////////
             Table mappedData = tda.mapTextColumnToNumber (tda.titanicData);
             Table firstFiveRows = mappedData.first (5);

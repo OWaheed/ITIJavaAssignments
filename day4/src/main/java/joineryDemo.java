@@ -6,21 +6,17 @@ import java.util.Date;
 public class joineryDemo {
     public static void main(String[] args) {
         try {
+            DataFrame<Object> df= DataFrame.readCsv ("src/main/resources/titanic.csv");
+            System.out.println("\ncolumns are:");
+            System.out.println(df.columns());
+            System.out.println("\nfirst 5 rows in data :");
+            System.out.println(df.head(5));
+            //df.iterrows ().forEachRemaining (System.out::println);
+            System.out.println(df.groupBy(row ->row.get(3)).groupBy(row ->row.get(1))
+                    .describe ());
 
-           /* DataFrame<Object>  df1= DataFrame.readCsv ("src/main/resources/data/vgsales.csv")
-                    .retain("Year", "NA_Sales","EU_Sales","JP_Sales")
-                    .describe ();
-           System.out.println (df1.toString ());
-            System.out.println ("=========================================================================================");*/
-            DataFrame<Object>  df= DataFrame.readCsv ("src/main/resources/vgsales.csv")
-                    .retain("Year", "NA_Sales","EU_Sales","JP_Sales")
-                    .groupBy(row ->row.get(0))
-                    .mean ();
-            df.iterrows ().forEachRemaining (System.out::println);
-
-            System.out.println ("=========================================================================================");
         } catch (IOException e) {
-            e.printStackTrace ();
+            e.printStackTrace();
         }
     }
 }

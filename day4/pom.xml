@@ -24,6 +24,12 @@
             <artifactId>joinery-dataframe</artifactId>
             <version>1.9</version>
         </dependency>
+        <dependency>
+            <groupId>sh.joinery</groupId>
+            <artifactId>joinery-dataframe</artifactId>
+            <version>1.10</version>
+        </dependency>
+
 
         <dependency>
             <groupId>commons-io</groupId>
@@ -37,7 +43,10 @@
             <version>3.6.1</version>
         </dependency>
 
+
+
     </dependencies>
+
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
