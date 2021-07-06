@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee7b62f7-94ce-4e43-8533-07805991310d" name="Default Changelist" comment="" />
+    <list default="true" id="ee7b62f7-94ce-4e43-8533-07805991310d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SparkMlDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SparkMlDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SparkMlDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SparkMlDemo.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,7 +53,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../day3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -87,6 +91,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.SparkMlDemo" />
       <item itemvalue="Application.SparkSqlDemo" />
@@ -106,6 +121,7 @@
       <workItem from="1622567864264" duration="4178000" />
       <workItem from="1622573914803" duration="2988000" />
       <workItem from="1622610335287" duration="4009000" />
+      <workItem from="1625123529990" duration="6212000" />
     </task>
     <servers />
   </component>

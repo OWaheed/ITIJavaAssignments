@@ -20,11 +20,21 @@ public class SparkMlDemo {
         final DataFrameReader dataFrameReader = sparkSession.read ();
         // Set header option to true to specify that first row in file contains
         // name of columns
+//        dataFrameReader.option ("header", "true");
+//        Dataset<Row> airbnbDF = dataFrameReader.csv ("src/main/resources/Wuzzuf_Jobs.csv");
+//        airbnbDF.show(5);
+//        airbnbDF.describe().show();
+//        airbnbDF.summary().show();
+//        airbnbDF.printSchema ();
         dataFrameReader.option ("header", "true");
         Dataset<Row> airbnbDF = dataFrameReader.csv ("src/main/resources/listings.csv");
-        // Print Schema to see column names, types and other metadata
-        // airbnbDF.printSchema ();
-        //============================================================================================================
+        airbnbDF.show(5);
+        airbnbDF.describe().show();
+        airbnbDF.summary().show();
+        airbnbDF.printSchema ();
+//         Print Schema to see column names, types and other metadata
+         airbnbDF.printSchema ();
+//        ============================================================================================================
         airbnbDF= airbnbDF.select (  "id","neighbourhood", "room_type", "bedrooms", "minimum_nights",
                 "number_of_reviews", "price");
         //final Dataset<Row> airbnbNoNullDF=airbnbDF.na().drop ();
